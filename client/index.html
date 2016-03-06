@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="test">
+<head>
+  <meta charset='utf8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="google-signin-client_id" content="145524553142-ko9cdemk19l1025hlk1vif3vqa4a099s.apps.googleusercontent.com"> -->
+  <title>test</title>
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap-css-only/css/bootstrap.css">
+  <link rel="stylesheet" href="styles/css/app.css"/>
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/hello/dist/hello.all.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
+
+    <!--<script src="https://apis.google.com/js/platform.js" async defer></script>-->
+
+    <script src="app.js"></script>
+    <script src="common/googleService.js"></script>
+    <script src="common/services.js"></script>
+    <script src="login/loginCtrl.js"></script>
+    <script src="profile/profileCtrl.js"></script>
+
+    <script src="common/directives.js"></script>
+    <script src="note/note.js"></script>
+</head>
+  <body ng-controller="testCtrl">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-md-offset-5">
+        <ui-view></ui-view>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

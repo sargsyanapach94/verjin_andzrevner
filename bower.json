@@ -1,0 +1,9 @@
+{
+  "name": "test",
+  "version": "",
+  "dependencies": {
+    "bootstrap-css-only": "*",
+    "angular": "*",
+    "angular-ui-router": "*"
+  }
+}
