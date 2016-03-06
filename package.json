@@ -26,6 +26,6 @@
   },
   "scripts": {
     "start": "gulp"
-    
+    "postinstall": "npm install && bower install && gulp"
   }
 }
