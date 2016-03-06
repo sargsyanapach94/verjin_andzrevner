@@ -23,5 +23,9 @@
     "gulp-concat": "*",
     "gulp-uglify": "*",
     "gulp-stylus": "*"
+  },
+  "scripts": {
+    "start": "node server/server.js"
+    
   }
 }
