@@ -6,6 +6,7 @@
     "jshint": "^2.8.0",
     "mongoose": "*",
     "q": "*",
+    "body-parser": "*",
     "morgan": "*"
   },
   "devDependencies": {
