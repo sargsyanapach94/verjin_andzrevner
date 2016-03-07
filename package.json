@@ -25,6 +25,6 @@
     "gulp-stylus": "*"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "gulp serve"
   }
 }
