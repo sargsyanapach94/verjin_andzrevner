@@ -7,8 +7,7 @@
     "mongoose": "*",
     "q": "*",
     "body-parser": "*",
-    "morgan": "*",
-    "bower": "1.2.x"
+    "morgan": "*"
   },
   "devDependencies": {
     "gulp": "*",
@@ -28,8 +27,9 @@
     "gulp-stylus": "*"
   },
   "description": "#### Status * Started",
+  
   "scripts": {
-    "start": "node server/server.js",
+    "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "bower cache clean && bower install"
   },
