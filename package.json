@@ -30,7 +30,7 @@
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "bower install"
+    "postinstall": ""
   },
   "engines": {
     "node": "4.1.1",
