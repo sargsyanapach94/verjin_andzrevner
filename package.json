@@ -24,6 +24,7 @@
     "gulp-uglify": "*",
     "gulp-stylus": "*"
   },
+  "description": "#### Status * Started",
   "scripts": {
     "start": "node server/server.js"
   }
