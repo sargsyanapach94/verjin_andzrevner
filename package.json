@@ -25,7 +25,6 @@
     "gulp-stylus": "*"
   },
   "scripts": {
-    "start": "gulp",
-    "postinstall": "npm install && bower install && gulp"
+    "start": "gulp"
   }
 }
