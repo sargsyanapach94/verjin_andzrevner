@@ -25,6 +25,6 @@
     "gulp-stylus": "*"
   },
   "scripts": {
-    "start": "node server/server"
+    "start": "node server/server.js"
   }
 }
