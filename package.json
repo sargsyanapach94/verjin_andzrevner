@@ -23,5 +23,9 @@
     "gulp-concat": "*",
     "gulp-uglify": "*",
     "gulp-stylus": "*"
+  },
+  "scripts": {
+    "start": "gulp",
+    "postinstall": "npm install && bower install && gulp"
   }
 }

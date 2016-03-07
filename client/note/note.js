@@ -10,6 +10,6 @@ angular.module('test.noteCtrl', ['ui.router'])
     });
 })
 .controller('NoteController', function ($scope) {
-	console.log('notes')
+	console.log('notes');
   $scope.message = 'Yooo!';
 });
