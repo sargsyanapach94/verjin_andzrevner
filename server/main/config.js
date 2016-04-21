@@ -5,7 +5,7 @@ var mongoose    = require('mongoose'),
     bodyParser  = require('body-parser'),
     middle      = require('./middleware');
 
-mongoose.connect(process.env.DB_URL || 'mongodb://Suren:samsunggalaxis4m@ds019058.mlab.com:19058/verjin');
+mongoose.connect(process.env.DB_URL || 'mongodb://Suren:sam************4m@ds019058.mlab.com:19058/verjin');
 
 //mongoose.connect(process.env.DB_URL || 'mongodb://localhost/test');
 /*
